@@ -17,6 +17,7 @@ namespace BeerDrinkin
 
         Client()
         {
+            //BeerDrinkinClient = new APIClient("https://beerdrinkin.azurewebsites.net/");
             BeerDrinkinClient = new APIClient(Keys.ServiceUrl);
         }
 
